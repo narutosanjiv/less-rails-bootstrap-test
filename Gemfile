@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '6.1.7.9'
 gem 'sqlite3'
 gem 'json'
 gem 'jquery-rails'
