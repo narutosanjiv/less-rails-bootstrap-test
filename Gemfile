@@ -1,16 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '4.0.0'
 gem 'sqlite3'
 gem 'json'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.0'
 
 group :assets do
-  gem 'coffee-rails'
+  gem 'coffee-rails', '>= 4.0.0'
   gem 'uglifier', '>= 1.0.3'
   gem 'therubyracer'
   if ENV['LESS_RAILS_SOURCE']
-    gem 'less-rails', :path => ENV['LESS_RAILS_SOURCE']
+    gem 'less-rails', '>= 2.7.0', '>= 2.7.0', :path => ENV['LESS_RAILS_SOURCE']
   else
     gem 'less-rails'
   end
